@@ -7,27 +7,44 @@ using System.Windows;
 
 namespace Assignment1
 {
+    public delegate double Fun(double t);
+
     public class Curve
     {
-        public double O { get; set; }
-        public double D { get; set; }
-        
-        private Point p;
-        private Vector v;
+        /*private double x, y;
 
-        public Curve(double o, double d)
+        private Point o;
+        private Vector d;*/
+
+        public Fun xFun, yFun;
+
+        public Point O { get; set; }
+        public Vector D { get; set; }
+
+        public Curve(Point o, Vector d)
         {
             O = o;
             D = d;            
+        }
+
+        public Curve(Point o, Vector d, Fun xFun, Fun yFun)
+        {
+            O = o;
+            D = d;
+            this.xFun = xFun;
+            this.yFun = yFun;            
         }        
 
-        virtual public Point GetPoint(double t)
+        public Point GetPoint(double t)
         {            
-            return p;
+            double x = O.X + D.X * xFun(t);
+            double y = O.Y + D.Y * yFun(t);
+            return new Point(x, y);
         }
 
         virtual public Vector GetDerivative(double t)
         {
+            Vector v = new Vector();
             return v;
         }
     }

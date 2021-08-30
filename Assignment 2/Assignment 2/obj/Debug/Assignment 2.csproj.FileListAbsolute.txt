@@ -1,7 +1,13 @@
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe.config
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\bin\Debug\Assignment 2.pdb
-D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.AssemblyReference.cache
-D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.CoreCompileInputs.cache
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb
+D:\Projects\Curves\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe.config
+D:\Projects\Curves\Assignment 2\Assignment 2\bin\Debug\Assignment 2.exe
+D:\Projects\Curves\Assignment 2\Assignment 2\bin\Debug\Assignment 2.pdb
+D:\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.AssemblyReference.cache
+D:\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csproj.CoreCompileInputs.cache
+D:\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.exe
+D:\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.pdb
+D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment 2\Assignment 2\obj\Debug\Assignment 2.csprojResolveAssemblyReference.cache

@@ -16,12 +16,19 @@ namespace Assignment1
             Random rnd = new Random();
             List<Curve> list = new List<Curve>();
 
-            list.Add(new Line(rnd.NextDouble(), rnd.NextDouble()));
-            list.Add(new Line(rnd.NextDouble(), rnd.NextDouble()));
-            list.Add(new Line(rnd.NextDouble(), rnd.NextDouble()));
-            list.Add(new Ellipse(rnd.NextDouble(), rnd.NextDouble()));
-            list.Add(new Ellipse(rnd.NextDouble(), rnd.NextDouble()));
-            list.Add(new Ellipse(rnd.NextDouble(), rnd.NextDouble()));
+            for(int i = 0; i < 3; i++)
+            {
+                point = new Point(rnd.NextDouble(), rnd.NextDouble());
+                vector = new Vector(rnd.NextDouble(), rnd.NextDouble());
+                list.Add(new Line(point, vector));
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                point = new Point(rnd.NextDouble(), rnd.NextDouble());
+                vector = new Vector(rnd.NextDouble(), rnd.NextDouble());
+                list.Add(new Ellipse(point, vector));
+            }
 
             foreach(var v in list)
             {

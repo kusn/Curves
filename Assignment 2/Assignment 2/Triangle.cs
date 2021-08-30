@@ -9,9 +9,9 @@ namespace Assignment_2
 {
     public class Triangle
     {
-        Point3D Point1 { get; set; }
-        Point3D Point2 { get; set; }
-        Point3D Point3 { get; set; }
+        public Point3D Point1 { get; set; }
+        public Point3D Point2 { get; set; }
+        public Point3D Point3 { get; set; }
 
         public Triangle()
         {
@@ -31,8 +31,8 @@ namespace Assignment_2
         {
             Point1 = p1;
             Point2 = p2;
-            Point2 = p2;
-        }
+            Point3 = p3;
+        }        
 
         public string ToString()
         {

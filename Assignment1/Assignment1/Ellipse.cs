@@ -9,25 +9,29 @@ namespace Assignment1
 {
     public class Ellipse : Curve
     {
-        public Ellipse(double o, double d) : base(o, d)
-        { }
-
-        public override Point GetPoint(double t)
+        static double XF(double t)
         {
-            return new Point(O * Math.Cos(t), D * Math.Sin(t));
+            return  Math.Cos(t);
+        }
+
+        static double YF(double t)
+        {
+            return Math.Sin(t);
+        }
+
+        public Ellipse(Point o, Vector d) : base(o, d)
+        {
+            xFun = new Fun(XF);
+            yFun = new Fun(YF);
         }
 
         public override Vector GetDerivative(double t)
         {
-            double dYdT;
-            double dXdT;
-            double dYdX;
+            double dXdT, dYdT;
 
-            dYdT = D * Math.Cos(t);
-            dXdT = -1.0 * O * Math.Sin(t);
-            dYdX = dYdT / dXdT;
-
-            return new Vector(t, dYdX);
+            dXdT = -1.0 * D.X * Math.Sin(t);
+            dYdT = D.Y * Math.Cos(t); 
+            return new Vector(dXdT, dYdT);
         }
     }
 }

@@ -5,3 +5,10 @@ D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment1\Assignment1\obj\Deb
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.exe
 D:\Kudryashov\Visual Studio 2005\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+D:\Projects\Curves\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+D:\Projects\Curves\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+D:\Projects\Curves\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+D:\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.AssemblyReference.cache
+D:\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+D:\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+D:\Projects\Curves\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
